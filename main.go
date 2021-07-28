@@ -1,8 +1,7 @@
 package main
 
 func main() {
-	array := []int{-1, 5, 10, 20, 28, 3}
-	array1 := []int{26, 134, 135, 15, 17}
-	SmallestDifference(array, array1)
+	array := []int{-1, -5, -10, -1100, -1100, -1101, -1102, -9001}
+	println(IsMonotonic(array))
 
 }
