@@ -1,7 +1,10 @@
 package main
 
 func main() {
-	array := []int{5, 1, 4, 2}
-	print(ArrayOfProducts(array))
+	array := [][]int{{-10, 20},
+		{89, 90},
+		{-50, 0},
+		{70, 95}}
 
+	print(MergeOverlappingIntervals1(array))
 }
