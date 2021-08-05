@@ -1,10 +1,7 @@
 package main
 
 func main() {
-	array := [][]int{{-10, 20},
-		{89, 90},
-		{-50, 0},
-		{70, 95}}
+	array := []int{30, 25, 50, 55, 100, 120}
 
-	print(MergeOverlappingIntervals1(array))
+	print(MaxSubsetSumNoAdjacent(array))
 }
