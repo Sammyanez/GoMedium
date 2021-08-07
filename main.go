@@ -1,7 +1,9 @@
 package main
 
 func main() {
-	array := []int{30, 25, 50, 55, 100, 120}
+	myTree := BST{Value: 10}
+	myTree.Insert(5)
+	myTree.Insert(15)
 
-	print(MaxSubsetSumNoAdjacent(array))
+	print(myTree.Contains(11))
 }
