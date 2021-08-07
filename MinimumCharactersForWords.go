@@ -1,5 +1,6 @@
 package main
 
+/*
 func MinimumCharactersForWords(words []string) []string {
 	characters := []string{}
 	removedCharacter := []string{}
@@ -35,4 +36,4 @@ func MinimumCharactersForWords(words []string) []string {
 
 func remove(slice []string, s int) []string {
 	return append(slice[:s], slice[s+1:]...)
-}
+}*/
