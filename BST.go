@@ -4,6 +4,7 @@ package main
 // the insert, contains, and remove methods.
 // Feel free to add new properties and methods
 // to the class.
+
 type BST struct {
 	Value int
 
