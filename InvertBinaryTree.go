@@ -1,12 +1,13 @@
 package main
 
+/*
 type BinaryTree struct {
 	Value int
 
 	Left  *BinaryTree
 	Right *BinaryTree
 }
-
+*/
 func (tree *BinaryTree) InvertBinaryTree() {
 	tree.invertbinaryTree()
 }
