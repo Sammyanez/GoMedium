@@ -1,6 +1,12 @@
 package main
 
 func main() {
+	array := []int{1, 2, 5}
+	NumberOfWaysToMakeChange(6, array)
+
+}
+
+/*
 	myTree := BinaryTree{Value: 1}
 	myTree.Left = &BinaryTree{Value: 2}
 	myTree.Left.Left = &BinaryTree{Value: 4}
@@ -15,5 +21,4 @@ func main() {
 	myTree.Left.Right.Left = &BinaryTree{Value: 12}
 
 	print(HeightBalancedBinaryTree(&myTree))
-
-}
+*/
