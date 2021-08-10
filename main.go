@@ -1,8 +1,8 @@
 package main
 
 func main() {
-	array := []int{1, 2, 5}
-	NumberOfWaysToMakeChange(6, array)
+	array := []int{1, 5, 10}
+	print(MinNumberOfCoinsForChange(24, array))
 
 }
 
