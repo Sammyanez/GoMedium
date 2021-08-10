@@ -1,8 +1,9 @@
 package main
 
+/*
 type TreeInfo struct {
-	diameter int
-	height   int
+	diameter   int
+	height     int
 }
 
 func BinaryTreeDiameter(tree *BinaryTree) int {
@@ -24,3 +25,4 @@ func getTreeInfo(tree *BinaryTree) TreeInfo {
 
 	return TreeInfo{currentDiameter, currentHeight}
 }
+*/
